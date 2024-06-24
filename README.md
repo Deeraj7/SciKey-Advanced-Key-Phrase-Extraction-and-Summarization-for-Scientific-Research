@@ -1,4 +1,3 @@
-
 # SciKey: Advanced Key Phrase Extraction and Summarization for Scientific Research
 
 ![SciKey Logo](logo.png)
@@ -47,6 +46,14 @@ To use SciKey, you need to have Python installed on your machine. Follow the ste
 - `random_data.csv`: Sample data file used for testing the key phrase extraction and summarization algorithms.
 - `image.png`: Logo or image used in the project.
 
+## Dataset
+
+The dataset used in this project is the COVID-19 Open Research Dataset (CORD-19) provided by the Allen Institute for AI. Due to its large size, it is not included in this repository. You can access it through the following links:
+
+- [COVID-19 Open Research Dataset (CORD-19) GitHub](https://github.com/allenai/cord19)
+- [Sample Data Link](https://drive.google.com/file/d/1eClGP2AnbomBfxHWhy0nL0pw7pszglTF/view?usp=sharing)
+- [Full Dataset on Kaggle](https://www.kaggle.com/datasets/allen-institute-for-ai/CORD-19-research-challenge)
+
 ## Contributing
 
 We welcome contributions to enhance SciKey. Please follow the steps below to contribute:
@@ -65,5 +72,3 @@ SciKey is released under the MIT License. See the `LICENSE` file for more detail
 ## Contact
 
 For questions or feedback, please contact Deeraj Thakkilapati at thakkilapatideeraj@gmail.com
-
-

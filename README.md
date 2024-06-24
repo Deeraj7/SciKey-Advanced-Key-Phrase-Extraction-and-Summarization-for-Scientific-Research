@@ -96,4 +96,4 @@ SciKey is released under the MIT License. See the `LICENSE` file for more detail
 
 ## Contact
 
-For questions or feedback, please contact Deeraj Thakkilapati at thakkilapatideeraj@gmail.com
+For questions or feedback, please contact **Deeraj Thakkilapati** at thakkilapatideeraj@gmail.com

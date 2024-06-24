@@ -12,6 +12,7 @@ SciKey is an advanced Natural Language Processing (NLP) tool designed for extrac
 - **Summarization**: Generate concise summaries of research papers.
 - **User-Friendly Interface**: Easy-to-use interface for uploading and processing documents.
 - **Customization**: Options for customizing the length and detail level of the summaries.
+- **Enhanced Information Retrieval**: Integrates Topic Modeling with Question-Answering Systems to provide exhaustive information on a given topic from a set of academic articles.
 
 ## Installation
 
@@ -53,6 +54,30 @@ The dataset used in this project is the COVID-19 Open Research Dataset (CORD-19)
 - [COVID-19 Open Research Dataset (CORD-19) GitHub](https://github.com/allenai/cord19)
 - [Sample Data Link](https://drive.google.com/file/d/1eClGP2AnbomBfxHWhy0nL0pw7pszglTF/view?usp=sharing)
 - [Full Dataset on Kaggle](https://www.kaggle.com/datasets/allen-institute-for-ai/CORD-19-research-challenge)
+
+## Methodology
+
+The project integrates Topic Modeling with Question-Answering Systems to provide enhanced information retrieval from research articles. Key techniques used include:
+
+- **Topic Modeling**: LDA, NMF, BERTopic, Correx
+- **Question-Answering System**: Based on TF-IDF techniques
+
+### Data Pre-Processing
+
+1. Loading the dataset into a pandas DataFrame.
+2. Text cleaning (lowercasing, removing special characters, removing stopwords).
+3. Combining cleaned titles and abstracts into a unified text corpus.
+4. Transforming text into a TF-IDF matrix using `TfidfVectorizer`.
+
+### Topic Modeling
+
+- **Non-negative Matrix Factorization (NMF)**: Applied to the TF-IDF matrix to extract topics and keywords.
+
+### Question-Answering System
+
+1. Processing user queries.
+2. Finding relevant articles or excerpts.
+3. Extracting and presenting answers.
 
 ## Contributing
 

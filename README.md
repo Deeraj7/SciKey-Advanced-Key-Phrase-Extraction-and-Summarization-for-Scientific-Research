@@ -1,7 +1,7 @@
 
 # SciKey: Advanced Key Phrase Extraction and Summarization for Scientific Research
 
-![SciKey Logo](path/to/image.png)
+![SciKey Logo](logo.png)
 
 ## Overview
 

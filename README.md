@@ -20,7 +20,7 @@ To use SciKey, you need to have Python installed on your machine. Follow the ste
 
 1. **Clone the repository:**
     ```sh
-    git clone https://github.com/yourusername/scikey.git
+    git clone https://github.com/Deeraj7/scikey.git
     cd scikey
     ```
 
